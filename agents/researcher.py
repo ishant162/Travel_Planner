@@ -8,7 +8,7 @@ researcher_agent = AssistantAgent(
         A researcher agent that helps users find information and answer
         questions.
     """,
-    model=ollama_model_client,
+    model_client=ollama_model_client,
     system_message="""
         You are a researcher agent. Your task is to help users find
         information and answer questions by conducting research and providing

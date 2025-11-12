@@ -3,9 +3,9 @@ from models.ollama_model import ollama_model_client
 
 
 planner_agent = AssistantAgent(
-    name="Travel Planner",
+    name="Travel_Planner",
     description="A travel planner agent that helps users plan their trips.",
-    model=ollama_model_client,
+    model_client=ollama_model_client,
     system_message="""
         You are a travel planner agent. Your task is to help users plan their
         trips by providing information about destinations, iteranaries, and
