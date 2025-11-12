@@ -1,0 +1,7 @@
+autogen-agentchat
+autogen-core
+ipykernel
+python-dotenv
+tiktoken
+openai
+pydantic
