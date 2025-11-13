@@ -6,3 +6,4 @@ tiktoken
 openai
 pydantic
 pytest
+autogen-ext[ollama,openai]
